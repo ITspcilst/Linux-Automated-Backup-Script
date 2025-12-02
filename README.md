@@ -55,5 +55,5 @@ else
         echo "Warning: /Backups/$date already exist, backup will overwrite"
 fi
 #Copying confidential files from "/Confidential" folder into "/Backups" folders
-cp -r /Confidential/* /Backups/$date/
+cp -r home/vboxuser/Desktop/Confidential/* /Backups/$date/
 ```

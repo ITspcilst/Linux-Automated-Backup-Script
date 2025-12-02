@@ -60,23 +60,32 @@ cp -r home/vboxuser/Desktop/Confidential/* /Backups/$date/
 
 ---
 
-##Automating the Backup with Cron
+## Automating the Backup with Cron
 To make the backup fully automatic, schedule the script to run every day at a specific time using cron.
 
-###1. Open the root user's crontab
+### 1. Open the root user's crontab
 ```bash
 sudo crontab -u root -e
 ```
 
 ---
 
-##2. Add the following line to schedule the backup
+## 2. Add the following line to schedule the backup
 ```bash
 2 14 * * * /opt/Backup.sh
 ```
 
 ---
 
-##Explanation
-Understanding the Cron Entry: | Field | Value | Meaning | | :--- | :--- | :--- | | Minute | 2 | Run at minute 2 | | Hour | 14 | Run at 14:00 (2 PM) | | Day of Month | * | Every day of the month | | Month | * | Every month | | Day of Week | * | Every day of the week |
+## Explanation
+| Field | Value | Meaning |
+| :--- | :--- | :--- |
+| **Minute** | `2` | Runs at minute 2 of the hour |
+| **Hour** | `14` | Runs at 14:00 (2 PM) |
+| **Day of Month** | `*` | Runs every day of the month |
+| **Month** | `*` | Runs every month |
+| **Day of Week** | `*` | Runs every day of the week |
+
+## Result
+Cron will now automatically execute the script every 24 hours, ensuring daily backups without manual input.
 

@@ -91,12 +91,11 @@ Cron will now automatically execute the script every 24 hours, ensuring daily ba
 
 ---
 
-## Screenshots
+## 📸 Screenshots
 
-1. ![Editing Script](Screenshots/Editing_Script_Screenshoot_1.png)
-2. ![Running Script](Screenshots/Running_Script_2.png)
-3. ![Backup Folder](Screenshots/Backup_Folder_3.png)
-
+![Editing Script](Screenshots/Editing_Script_Screenshoot_1.png)
+![Running Script](Screenshots/Running_Script_2.png)
+![Backup Folder](Screenshots/Backup_Folder_3.png)
 
 
 

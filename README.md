@@ -71,6 +71,7 @@ To make the backup fully automatic, schedule the script to run every day at a sp
 ```bash
 sudo crontab -u root -e
 ```
+* [Editing Script](Screenshots/Running_Scrip_2_Crontab.png)
 
 ---
 
